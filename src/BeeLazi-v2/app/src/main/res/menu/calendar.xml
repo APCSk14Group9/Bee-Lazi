@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Add Events"
+        android:id="@+id/addEvents"
+        android:icon="@mipmap/ic_add"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item
+        android:title="Choose Month"
+        android:id="@+id/chooseMonth"
+        android:icon="@mipmap/ic_month"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+</menu>

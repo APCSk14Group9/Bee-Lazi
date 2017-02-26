@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#D0212121"
+    android:padding="10dp"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTitle"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:text="Activity"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tvStartDate"
+            android:text="FROM: "
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TIME: "
+            android:id="@+id/tvStartTime"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tvToDate"
+            android:text="TO: "
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TIME: "
+            android:textStyle="bold"
+            android:id="@+id/tvEndTime"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+We have the suggestion for film and food.
+
+For instance, in the film:
+	- add_class_to_film_data.py is the file that generates randoms class for each data point, it will range from 1 through 8
+	- training.py is the file that learning the data using Adaboost, 
+		then it turns around predicting on that data and get the predicted classes. 
+		Sort the predicted class decreasing to get the rank_list	
+	- feedback.py, the input is rank_list, now user need to specify which option to be selected to update the original classes.
+
+How to run:
+add_class_to_film_data is run only once at the beginning.
+then, run training and feedback repeatedly.

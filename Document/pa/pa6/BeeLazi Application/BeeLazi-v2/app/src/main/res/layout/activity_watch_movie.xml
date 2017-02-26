@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/city"
+    tools:context="cs300.beelazi.WatchMovieActivity">
+
+    <FrameLayout
+        android:id="@+id/video_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/black">
+        
+        <com.example.tuvanninh.universalvideoview.UniversalVideoView
+            android:id="@+id/videoView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            app:uvv_autoRotation="true"
+            app:uvv_fitXY="false"/>
+
+        <com.example.tuvanninh.universalvideoview.UniversalMediaController
+            android:id="@+id/media_controller"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:uvv_scalable="true"/>
+
+    </FrameLayout>
+
+</RelativeLayout>

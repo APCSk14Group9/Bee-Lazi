@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDarker</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <color name="primary">#457C50</color>
+    <color name="primaryDarker">#580C0C</color>
+
+    <style name="SwipeLayout">
+        <item name="android:paddingBottom">1px</item>
+        <item name="android:background">#e5e5e5</item>
+    </style>
+
+    <style name="CenterTextView">
+        <item name="android:padding">6dp</item>
+        <item name="android:textColor">@color/center_text</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="RightTextView">
+        <item name="android:padding">6dp</item>
+        <item name="android:textColor">@color/right_text</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="LeftTextView">
+        <item name="android:padding">6dp</item>
+        <item name="android:textColor">@color/left_text</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="AppThemeDatePicker" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/c_accent</item>
+        <item name="colorPrimaryDark">@color/c_primary_dark</item>
+        <item name="colorPrimary">@color/c_primary</item>
+        <item name="android:textColorPrimary">#212121</item>
+        <item name="android:textColorSecondary">#727272</item>
+        <item name="android:textColorPrimaryInverse">#FFFFFF</item>
+
+        <item name="sublimePickerStyle">@style/SPDefaultImpl</item>
+    </style>
+
+    <style name="SPDefaultImpl" parent="SublimePickerStyleLight">
+        <item name="colorAccent">@color/c_accent</item>
+        <item name="colorPrimaryDark">@color/c_primary_dark</item>
+        <item name="colorPrimary">@color/c_primary</item>
+        <item name="android:textColorPrimary">#212121</item>
+        <item name="android:textColorSecondary">#727272</item>
+        <item name="android:textColorPrimaryInverse">#FFFFFF</item>
+    </style>
+
+
+</resources>

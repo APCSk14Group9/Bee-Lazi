@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="eventBackground">#AA3FDD</color>
+    <color name="icon_enabled">#FFFFFFFF</color>
+    <color name="icon_disabled">#FF63727B</color>
+    <color name="event_color_01">#59dbe0</color>
+    <color name="event_color_02">#f57f68</color>
+    <color name="event_color_03">#87d288</color>
+    <color name="event_color_04">#f8b552</color>
+    <color name="toolbar">#efefef</color>
+    <color name="toolbar_text">#8f000000</color>
+    <color name="accent">#2789e4</color>
+    <color name="c_accent">#325C80</color>
+    <color name="c_primary">#2B4F6F</color>
+    <color name="c_primary_dark">#24435D</color>
+    <color name="floating_action_button_bg">@color/c_accent</color>
+    <color name="floating_action_button_pressed_bg">#212121</color>
+    <color name="black">#000000</color>
+    <color name="center_bg">#FFF</color>
+    <color name="center_text">#333</color>
+    <color name="right_bg">#fc515b</color>
+    <color name="right_text">#FFF</color>
+    <color name="left_bg">#4287ff</color>
+    <color name="left_text">#FFF</color>
+    <color name="tabColor">#212121</color>
+</resources>

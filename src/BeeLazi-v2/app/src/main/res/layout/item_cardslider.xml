@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/tvItem"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:background="@drawable/circle_transparent_layout"
+        android:textSize="15sp"
+        android:gravity="center"/>
+
+    <com.rey.material.widget.Slider
+        style="@style/Material.Widget.Slider"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/slItem"
+        app:sl_primaryColor = "#FFFFFF"
+        app:sl_secondaryColor = "#F4D03F"
+        app:sl_minValue="0"
+        app:sl_maxValue="100"
+        app:sl_value="50"/>
+
+
+</LinearLayout>

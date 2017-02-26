@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="50dp"
+    android:background="#00ffffff"
+    android:orientation="vertical">
+
+
+    <cs300.beelazi.CardUI.CardSlidePanel
+        android:id="@+id/image_slide_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card:bottomMarginTop="38dp"
+        card:itemMarginTop="10dp"
+        card:yOffsetStep="26dp">
+
+        <LinearLayout
+            android:id="@+id/card_bottom_layout"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/card_left_btn"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/type_decline"
+                    android:padding="15dp"
+                    android:background="@drawable/circular_transparent_button" />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/type_detail"
+                    android:padding="15dp"
+                    android:id="@+id/card_detail_btn"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/circular_transparent_button" />
+
+                <ImageView
+                    android:id="@+id/card_right_btn"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/type_accept"
+                    android:padding="15dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/circular_transparent_button" />
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <cs300.beelazi.widget.SwitchButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/switchButton"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#FFFFFF"
+                    android:text="FAVORITE"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <cs300.beelazi.CardUI.CardItemView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <cs300.beelazi.CardUI.CardItemView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <cs300.beelazi.CardUI.CardItemView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <cs300.beelazi.CardUI.CardItemView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </cs300.beelazi.CardUI.CardSlidePanel>
+
+
+</LinearLayout>

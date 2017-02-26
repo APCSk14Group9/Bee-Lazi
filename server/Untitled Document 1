@@ -1,0 +1,2 @@
+{"action":"INS","table": "User", "condition": {"username": "abc", "fullname": "ABBCC"}}
+
